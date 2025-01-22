@@ -39,7 +39,7 @@ const projects = [
             { name: "Node.Js" }, { name: "Postgres" }, { name: "JWT" }
         ],
         name: "TypeScript",
-        image: "/assets/work/thumb4.png",
+        image: "/assets/work/task.png",
         live: "https://github.com/Rafonn/API-REST-TASKS",
         github: "https://github.com/Rafonn/API-REST-TASKS",
     },
@@ -53,7 +53,7 @@ const projects = [
             { name: "TypeScript" }
         ],
         name: "TypeScript",
-        image: "/assets/work/thumb4.png",
+        image: "/assets/work/Bot.jpg",
         live: "https://github.com/Rafonn/BOT-SERVER",
         github: "https://github.com/Rafonn/BOT-SERVER",
     }
