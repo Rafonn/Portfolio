@@ -48,6 +48,7 @@ const SheetContent = React.forwardRef(({ side = "right", className, children, ..
   <SheetPortal>
     <SheetOverlay />
     <SheetPrimitive.Content ref={ref} className={cn(sheetVariants({ side }), className)} {...props}>
+      <SheetTitle className="sr-only">.</SheetTitle>
       {children}
       <SheetPrimitive.Close
         className="absolute right-8 top-8 transition-opacity outline-none">
@@ -56,7 +57,8 @@ const SheetContent = React.forwardRef(({ side = "right", className, children, ..
       </SheetPrimitive.Close>
     </SheetPrimitive.Content>
   </SheetPortal>
-))
+));
+
 SheetContent.displayName = SheetPrimitive.Content.displayName
 
 const SheetHeader = ({
